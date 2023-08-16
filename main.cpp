@@ -30,6 +30,7 @@ int main () {
 
         #Drawing
         DrawLine(screenWidth / 2, 0, screenWidth / 2, screenHeight, WHITE);
+        ball.Draw();
         DrawRectangle(10, screenHeight / 2 - 60, 25, 120, WHITE);
         DrawRectangle(screenWidth - 35, screenHeight / 2 - 60, 25, 120, WHITE);
 
