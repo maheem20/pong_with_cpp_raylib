@@ -22,6 +22,8 @@ int main () {
     ball.radius = 20;
     ball.x = screenWidth / 2;
     ball.y = screenHeight / 2;
+    ball.speed_x = 7;
+    ball.speed_y = 7;
 
     while (!WindowShouldClose() == false) {
         BeginDrawing();
