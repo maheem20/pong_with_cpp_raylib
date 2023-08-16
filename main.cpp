@@ -12,6 +12,11 @@ class Ball {
     void Draw() {
         DrawCircle(x, y, radius, WHITE);
     }
+
+    void Update() {
+        x += speed_x;
+        y += speed_y;
+    }
 };
 
 int main () {
