@@ -11,6 +11,10 @@ int main () {
 
     while (!WindowShouldClose() == false) {
         BeginDrawing();
+
+        #Drawing
+        DrawCircle(screenWidth / 2, screenHeight / 2, 20, WHITE);
+
         EndDrawing();
     }
 
