@@ -19,6 +19,7 @@ int main () {
     const int screenHeight = 800;
     InitWindow(screenWidth, screenHeight, "My Pong Game!");
     SetTargetFPS(60);
+    ball.radius = 20;
 
     while (!WindowShouldClose() == false) {
         BeginDrawing();
