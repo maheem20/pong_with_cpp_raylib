@@ -13,6 +13,7 @@ int main () {
         BeginDrawing();
 
         #Drawing
+        DrawLine(screenWidth / 2, 0, screenWidth / 2, screenHeight, WHITE);
         DrawCircle(screenWidth / 2, screenHeight / 2, 20, WHITE);
         DrawRectangle(10, screenHeight / 2 - 60, 25, 120, WHITE);
         DrawRectangle(screenWidth - 35, screenHeight / 2 - 60, 25, 120, WHITE);
