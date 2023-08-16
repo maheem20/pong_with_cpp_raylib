@@ -3,6 +3,13 @@
 
 using namespace std;
 
+class Ball {
+    public:
+        float x, y;
+        int speed_x, speed_y;
+        int radius;
+};
+
 int main () {
     const int screenWidth = 1280;
     const int screenHeight = 800;
