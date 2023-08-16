@@ -7,6 +7,10 @@ int main () {
     const int screenWidth = 1280;
     const int screenHeight = 800;
     InitWindow(screenWidth, screenHeight, "My Pong Game!");
+
+    while (!WindowShouldClose()) {
+        BeginDrawing();
+        EndDrawing();
     }
 
     return 0;
