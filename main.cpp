@@ -55,6 +55,7 @@ int main () {
     player.height = 120;
     player.x = screenWidth - player.width - 10;
     player.y = screenHeight / 2 - player.height / 2;
+    player.speed = 6;
 
     while (!WindowShouldClose() == false) {
         BeginDrawing();
