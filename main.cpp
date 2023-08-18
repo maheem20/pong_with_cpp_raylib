@@ -37,6 +37,9 @@ class Ball {
     }
 };
 
+Ball ball;
+Paddle player;
+
 int main () {
     const int screenWidth = 1280;
     const int screenHeight = 800;
