@@ -3,6 +3,16 @@
 
 using namespace std;
 
+class Paddle {
+    public:
+        float x, y;
+        int width, height;
+        int speed;
+
+    void Draw() {
+    }
+};  
+
 class Ball {
     public:
         float x, y;
