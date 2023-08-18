@@ -51,6 +51,9 @@ int main () {
     ball.speed_x = 7;
     ball.speed_y = 7;
 
+    player.width = 25;
+    player.height = 120;
+
     while (!WindowShouldClose() == false) {
         BeginDrawing();
 
